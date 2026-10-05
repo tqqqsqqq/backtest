@@ -1,19 +1,277 @@
 {
+  "QQQ": {
+    "symbol": "QQQ",
+    "start_date": "2026-01-02",
+    "end_date": "2026-10-02",
+    "trading_days": 189,
+    "total_exits": 5,
+    "total_realized_profit": 5927.58,
+    "max_seed": 86747.33,
+    "max_qty": 122,
+    "current_qty": 15,
+    "current_avg_price": 741.21,
+    "current_unrealized_profit": 125.58,
+    "current_unrealized_pct": 1.13,
+    "total_profit": 6053.16,
+    "roi_max_seed": 6.98,
+    "yearly": {
+      "2026": {
+        "exits": 5,
+        "realized_profit": 5927.57,
+        "max_seed": 86747.33,
+        "max_qty": 122
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2026-04-13",
+        "start_date": "2026-01-02",
+        "sold_qty": 116,
+        "sell_price": 621.67,
+        "avg_price": 601.81,
+        "profit": 2304.28,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2026-04-24",
+        "start_date": "2026-04-13",
+        "sold_qty": 9,
+        "sell_price": 660.89,
+        "avg_price": 639.78,
+        "profit": 189.98,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2026-05-06",
+        "start_date": "2026-04-24",
+        "sold_qty": 9,
+        "sell_price": 687.33,
+        "avg_price": 665.37,
+        "profit": 197.64,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2026-05-26",
+        "start_date": "2026-05-06",
+        "sold_qty": 16,
+        "sell_price": 729.34,
+        "avg_price": 706.04,
+        "profit": 372.78,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-05-26",
+        "sold_qty": 122,
+        "sell_price": 734.51,
+        "avg_price": 711.04,
+        "profit": 2862.89,
+        "profit_rate": 3.3
+      }
+    ]
+  },
+  "QQQM": {
+    "symbol": "QQQM",
+    "start_date": "2026-01-02",
+    "end_date": "2026-10-02",
+    "trading_days": 189,
+    "total_exits": 5,
+    "total_realized_profit": 2450.18,
+    "max_seed": 35121.9,
+    "max_qty": 120,
+    "current_qty": 15,
+    "current_avg_price": 305.2,
+    "current_unrealized_profit": 52.42,
+    "current_unrealized_pct": 1.15,
+    "total_profit": 2502.6,
+    "roi_max_seed": 7.13,
+    "yearly": {
+      "2026": {
+        "exits": 5,
+        "realized_profit": 2450.18,
+        "max_seed": 35121.9,
+        "max_qty": 120
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2026-04-14",
+        "start_date": "2026-01-02",
+        "sold_qty": 117,
+        "sell_price": 255.97,
+        "avg_price": 247.79,
+        "profit": 956.79,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2026-05-01",
+        "start_date": "2026-04-14",
+        "sold_qty": 13,
+        "sell_price": 276.43,
+        "avg_price": 267.6,
+        "profit": 114.81,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2026-05-08",
+        "start_date": "2026-05-01",
+        "sold_qty": 6,
+        "sell_price": 289.42,
+        "avg_price": 280.18,
+        "profit": 55.46,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2026-05-28",
+        "start_date": "2026-05-08",
+        "sold_qty": 17,
+        "sell_price": 302.33,
+        "avg_price": 292.67,
+        "profit": 164.22,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-05-28",
+        "sold_qty": 120,
+        "sell_price": 302.34,
+        "avg_price": 292.68,
+        "profit": 1158.9,
+        "profit_rate": 3.3
+      }
+    ]
+  },
+  "QLD": {
+    "symbol": "QLD",
+    "start_date": "2026-01-02",
+    "end_date": "2026-10-02",
+    "trading_days": 189,
+    "total_exits": 8,
+    "total_realized_profit": 1133.53,
+    "max_seed": 8005.13,
+    "max_qty": 119,
+    "current_qty": 15,
+    "current_avg_price": 96.09,
+    "current_unrealized_profit": 30.59,
+    "current_unrealized_pct": 2.12,
+    "total_profit": 1164.12,
+    "roi_max_seed": 14.54,
+    "yearly": {
+      "2026": {
+        "exits": 8,
+        "realized_profit": 1133.53,
+        "max_seed": 8005.13,
+        "max_qty": 119
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2026-04-14",
+        "start_date": "2026-01-02",
+        "sold_qty": 119,
+        "sell_price": 70.63,
+        "avg_price": 67.27,
+        "profit": 399.84,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2026-04-24",
+        "start_date": "2026-04-14",
+        "sold_qty": 8,
+        "sell_price": 79.35,
+        "avg_price": 75.57,
+        "profit": 30.21,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2026-05-05",
+        "start_date": "2026-04-24",
+        "sold_qty": 8,
+        "sell_price": 84.37,
+        "avg_price": 80.35,
+        "profit": 32.13,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2026-05-08",
+        "start_date": "2026-05-05",
+        "sold_qty": 3,
+        "sell_price": 90.88,
+        "avg_price": 86.55,
+        "profit": 12.99,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2026-05-26",
+        "start_date": "2026-05-08",
+        "sold_qty": 15,
+        "sell_price": 95.81,
+        "avg_price": 91.25,
+        "profit": 68.38,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 6,
+        "exit_date": "2026-06-15",
+        "start_date": "2026-05-26",
+        "sold_qty": 21,
+        "sell_price": 98.52,
+        "avg_price": 93.82,
+        "profit": 98.61,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 7,
+        "exit_date": "2026-08-05",
+        "start_date": "2026-06-15",
+        "sold_qty": 60,
+        "sell_price": 93.47,
+        "avg_price": 89.02,
+        "profit": 267.24,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 8,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-08-05",
+        "sold_qty": 50,
+        "sell_price": 94.19,
+        "avg_price": 89.71,
+        "profit": 224.13,
+        "profit_rate": 5.0
+      }
+    ]
+  },
   "TQQQ": {
     "symbol": "TQQQ",
     "start_date": "2026-01-02",
-    "end_date": "2026-09-29",
-    "trading_days": 186,
+    "end_date": "2026-10-02",
+    "trading_days": 189,
     "total_exits": 5,
     "total_realized_profit": 1817.31,
     "max_seed": 9830.9,
     "max_qty": 136,
-    "current_qty": 10,
-    "current_avg_price": 78.38,
-    "current_unrealized_profit": -8.79,
-    "current_unrealized_pct": -1.12,
-    "total_profit": 1808.52,
-    "roi_max_seed": 18.4,
+    "current_qty": 14,
+    "current_avg_price": 78.54,
+    "current_unrealized_profit": 34.59,
+    "current_unrealized_pct": 3.15,
+    "total_profit": 1851.9,
+    "roi_max_seed": 18.84,
     "yearly": {
       "2026": {
         "exits": 5,
@@ -78,22 +336,22 @@
   "SOXL": {
     "symbol": "SOXL",
     "start_date": "2026-01-02",
-    "end_date": "2026-09-29",
-    "trading_days": 186,
-    "total_exits": 24,
-    "total_realized_profit": 2991.89,
+    "end_date": "2026-10-02",
+    "trading_days": 189,
+    "total_exits": 25,
+    "total_realized_profit": 3154.07,
     "max_seed": 13882.65,
     "max_qty": 104,
-    "current_qty": 9,
-    "current_avg_price": 146.98,
-    "current_unrealized_profit": 24.62,
-    "current_unrealized_pct": 1.86,
-    "total_profit": 3016.51,
-    "roi_max_seed": 21.73,
+    "current_qty": 1,
+    "current_avg_price": 163.71,
+    "current_unrealized_profit": 0.0,
+    "current_unrealized_pct": 0.0,
+    "total_profit": 3154.07,
+    "roi_max_seed": 22.72,
     "yearly": {
       "2026": {
-        "exits": 24,
-        "realized_profit": 2991.88,
+        "exits": 25,
+        "realized_profit": 3154.06,
         "max_seed": 13882.65,
         "max_qty": 104
       }
@@ -337,6 +595,16 @@
         "sell_price": 146.84,
         "avg_price": 133.49,
         "profit": 1388.71,
+        "profit_rate": 10.0
+      },
+      {
+        "cycle": 25,
+        "exit_date": "2026-10-02",
+        "start_date": "2026-09-22",
+        "sold_qty": 11,
+        "sell_price": 162.17,
+        "avg_price": 147.43,
+        "profit": 162.18,
         "profit_rate": 10.0
       }
     ]

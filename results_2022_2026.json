@@ -1,19 +1,1399 @@
 {
+  "QQQ": {
+    "symbol": "QQQ",
+    "start_date": "2022-01-03",
+    "end_date": "2026-10-02",
+    "trading_days": 1192,
+    "total_exits": 37,
+    "total_realized_profit": 26208.94,
+    "max_seed": 86747.33,
+    "max_qty": 167,
+    "current_qty": 15,
+    "current_avg_price": 741.21,
+    "current_unrealized_profit": 125.58,
+    "current_unrealized_pct": 1.13,
+    "total_profit": 26334.53,
+    "roi_max_seed": 30.36,
+    "yearly": {
+      "2022": {
+        "exits": 4,
+        "realized_profit": 4492.2,
+        "max_seed": 50148.37,
+        "max_qty": 167
+      },
+      "2023": {
+        "exits": 12,
+        "realized_profit": 4073.78,
+        "max_seed": 51098.04,
+        "max_qty": 142
+      },
+      "2024": {
+        "exits": 9,
+        "realized_profit": 5062.84,
+        "max_seed": 33924.18,
+        "max_qty": 79
+      },
+      "2025": {
+        "exits": 6,
+        "realized_profit": 5300.1,
+        "max_seed": 50713.78,
+        "max_qty": 107
+      },
+      "2026": {
+        "exits": 6,
+        "realized_profit": 7280.03,
+        "max_seed": 86747.33,
+        "max_qty": 122
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2022-03-28",
+        "start_date": "2022-01-03",
+        "sold_qty": 111,
+        "sell_price": 354.92,
+        "avg_price": 343.59,
+        "profit": 1258.12,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2022-08-01",
+        "start_date": "2022-03-28",
+        "sold_qty": 167,
+        "sell_price": 310.2,
+        "avg_price": 300.29,
+        "profit": 1655.03,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2022-08-11",
+        "start_date": "2022-08-01",
+        "sold_qty": 10,
+        "sell_price": 321.62,
+        "avg_price": 311.35,
+        "profit": 102.7,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2022-12-13",
+        "start_date": "2022-08-11",
+        "sold_qty": 160,
+        "sell_price": 288.74,
+        "avg_price": 279.51,
+        "profit": 1476.35,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2023-01-12",
+        "start_date": "2022-12-13",
+        "sold_qty": 36,
+        "sell_price": 272.7,
+        "avg_price": 263.99,
+        "profit": 313.6,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 6,
+        "exit_date": "2023-01-23",
+        "start_date": "2023-01-12",
+        "sold_qty": 8,
+        "sell_price": 281.93,
+        "avg_price": 272.92,
+        "profit": 72.08,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 7,
+        "exit_date": "2023-02-01",
+        "start_date": "2023-01-23",
+        "sold_qty": 9,
+        "sell_price": 293.9,
+        "avg_price": 284.51,
+        "profit": 84.5,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 8,
+        "exit_date": "2023-02-02",
+        "start_date": "2023-02-01",
+        "sold_qty": 1,
+        "sell_price": 304.31,
+        "avg_price": 294.59,
+        "profit": 9.72,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 9,
+        "exit_date": "2023-03-17",
+        "start_date": "2023-02-02",
+        "sold_qty": 51,
+        "sell_price": 301.65,
+        "avg_price": 292.01,
+        "profit": 491.57,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 10,
+        "exit_date": "2023-03-31",
+        "start_date": "2023-03-17",
+        "sold_qty": 12,
+        "sell_price": 312.75,
+        "avg_price": 302.76,
+        "profit": 119.89,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 11,
+        "exit_date": "2023-05-16",
+        "start_date": "2023-03-31",
+        "sold_qty": 44,
+        "sell_price": 322.31,
+        "avg_price": 312.01,
+        "profit": 453.25,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 12,
+        "exit_date": "2023-05-26",
+        "start_date": "2023-05-16",
+        "sold_qty": 10,
+        "sell_price": 338.23,
+        "avg_price": 327.42,
+        "profit": 108.08,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 13,
+        "exit_date": "2023-06-13",
+        "start_date": "2023-05-26",
+        "sold_qty": 13,
+        "sell_price": 356.56,
+        "avg_price": 345.17,
+        "profit": 148.12,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 14,
+        "exit_date": "2023-07-13",
+        "start_date": "2023-06-13",
+        "sold_qty": 23,
+        "sell_price": 370.67,
+        "avg_price": 358.83,
+        "profit": 272.39,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 15,
+        "exit_date": "2023-11-10",
+        "start_date": "2023-07-13",
+        "sold_qty": 142,
+        "sell_price": 371.72,
+        "avg_price": 359.85,
+        "profit": 1686.2,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 16,
+        "exit_date": "2023-12-13",
+        "start_date": "2023-11-10",
+        "sold_qty": 25,
+        "sell_price": 393.65,
+        "avg_price": 381.07,
+        "profit": 314.38,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 17,
+        "exit_date": "2024-01-19",
+        "start_date": "2023-12-13",
+        "sold_qty": 30,
+        "sell_price": 412.31,
+        "avg_price": 399.14,
+        "profit": 395.01,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 18,
+        "exit_date": "2024-03-01",
+        "start_date": "2024-01-19",
+        "sold_qty": 32,
+        "sell_price": 436.71,
+        "avg_price": 422.76,
+        "profit": 446.31,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 19,
+        "exit_date": "2024-05-15",
+        "start_date": "2024-03-01",
+        "sold_qty": 79,
+        "sell_price": 443.59,
+        "avg_price": 429.42,
+        "profit": 1119.43,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 20,
+        "exit_date": "2024-06-12",
+        "start_date": "2024-05-15",
+        "sold_qty": 24,
+        "sell_price": 464.87,
+        "avg_price": 450.02,
+        "profit": 356.49,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 21,
+        "exit_date": "2024-07-05",
+        "start_date": "2024-06-12",
+        "sold_qty": 17,
+        "sell_price": 490.45,
+        "avg_price": 474.78,
+        "profit": 266.4,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 22,
+        "exit_date": "2024-08-21",
+        "start_date": "2024-07-05",
+        "sold_qty": 56,
+        "sell_price": 477.98,
+        "avg_price": 462.71,
+        "profit": 855.09,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 23,
+        "exit_date": "2024-09-19",
+        "start_date": "2024-08-21",
+        "sold_qty": 31,
+        "sell_price": 477.75,
+        "avg_price": 462.49,
+        "profit": 473.12,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 24,
+        "exit_date": "2024-11-06",
+        "start_date": "2024-09-19",
+        "sold_qty": 42,
+        "sell_price": 499.28,
+        "avg_price": 483.33,
+        "profit": 669.85,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 25,
+        "exit_date": "2024-12-06",
+        "start_date": "2024-11-06",
+        "sold_qty": 29,
+        "sell_price": 519.47,
+        "avg_price": 502.88,
+        "profit": 481.14,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 26,
+        "exit_date": "2025-02-14",
+        "start_date": "2024-12-06",
+        "sold_qty": 65,
+        "sell_price": 532.58,
+        "avg_price": 515.56,
+        "profit": 1106.16,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 27,
+        "exit_date": "2025-05-12",
+        "start_date": "2025-02-14",
+        "sold_qty": 107,
+        "sell_price": 489.6,
+        "avg_price": 473.96,
+        "profit": 1673.42,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 28,
+        "exit_date": "2025-06-24",
+        "start_date": "2025-05-12",
+        "sold_qty": 32,
+        "sell_price": 536.0,
+        "avg_price": 518.88,
+        "profit": 547.85,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 29,
+        "exit_date": "2025-08-11",
+        "start_date": "2025-06-24",
+        "sold_qty": 34,
+        "sell_price": 573.2,
+        "avg_price": 554.89,
+        "profit": 622.69,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 30,
+        "exit_date": "2025-09-18",
+        "start_date": "2025-08-11",
+        "sold_qty": 37,
+        "sell_price": 590.48,
+        "avg_price": 571.62,
+        "profit": 697.91,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 31,
+        "exit_date": "2025-10-27",
+        "start_date": "2025-09-18",
+        "sold_qty": 33,
+        "sell_price": 618.4,
+        "avg_price": 598.64,
+        "profit": 652.07,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 32,
+        "exit_date": "2026-01-28",
+        "start_date": "2025-10-27",
+        "sold_qty": 87,
+        "sell_price": 633.4,
+        "avg_price": 613.17,
+        "profit": 1760.3,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 33,
+        "exit_date": "2026-04-13",
+        "start_date": "2026-01-28",
+        "sold_qty": 96,
+        "sell_price": 618.35,
+        "avg_price": 598.6,
+        "profit": 1896.44,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 34,
+        "exit_date": "2026-04-24",
+        "start_date": "2026-04-13",
+        "sold_qty": 9,
+        "sell_price": 660.89,
+        "avg_price": 639.78,
+        "profit": 189.98,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 35,
+        "exit_date": "2026-05-06",
+        "start_date": "2026-04-24",
+        "sold_qty": 9,
+        "sell_price": 687.33,
+        "avg_price": 665.37,
+        "profit": 197.64,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 36,
+        "exit_date": "2026-05-26",
+        "start_date": "2026-05-06",
+        "sold_qty": 16,
+        "sell_price": 729.34,
+        "avg_price": 706.04,
+        "profit": 372.78,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 37,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-05-26",
+        "sold_qty": 122,
+        "sell_price": 734.51,
+        "avg_price": 711.04,
+        "profit": 2862.89,
+        "profit_rate": 3.3
+      }
+    ]
+  },
+  "QQQM": {
+    "symbol": "QQQM",
+    "start_date": "2022-01-03",
+    "end_date": "2026-10-02",
+    "trading_days": 1192,
+    "total_exits": 38,
+    "total_realized_profit": 10782.41,
+    "max_seed": 35121.9,
+    "max_qty": 167,
+    "current_qty": 15,
+    "current_avg_price": 305.2,
+    "current_unrealized_profit": 52.42,
+    "current_unrealized_pct": 1.15,
+    "total_profit": 10834.83,
+    "roi_max_seed": 30.85,
+    "yearly": {
+      "2022": {
+        "exits": 5,
+        "realized_profit": 1848.37,
+        "max_seed": 20592.74,
+        "max_qty": 167
+      },
+      "2023": {
+        "exits": 12,
+        "realized_profit": 1663.9,
+        "max_seed": 20695.96,
+        "max_qty": 140
+      },
+      "2024": {
+        "exits": 9,
+        "realized_profit": 2082.4,
+        "max_seed": 13949.24,
+        "max_qty": 79
+      },
+      "2025": {
+        "exits": 6,
+        "realized_profit": 2181.01,
+        "max_seed": 20868.47,
+        "max_qty": 107
+      },
+      "2026": {
+        "exits": 6,
+        "realized_profit": 3006.73,
+        "max_seed": 35121.9,
+        "max_qty": 120
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2022-03-28",
+        "start_date": "2022-01-03",
+        "sold_qty": 111,
+        "sell_price": 145.71,
+        "avg_price": 141.05,
+        "profit": 516.89,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2022-08-01",
+        "start_date": "2022-03-28",
+        "sold_qty": 167,
+        "sell_price": 127.38,
+        "avg_price": 123.31,
+        "profit": 679.72,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2022-08-11",
+        "start_date": "2022-08-01",
+        "sold_qty": 10,
+        "sell_price": 132.04,
+        "avg_price": 127.82,
+        "profit": 42.19,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2022-12-01",
+        "start_date": "2022-08-11",
+        "sold_qty": 147,
+        "sell_price": 118.62,
+        "avg_price": 114.83,
+        "profit": 556.66,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2022-12-13",
+        "start_date": "2022-12-01",
+        "sold_qty": 14,
+        "sell_price": 118.28,
+        "avg_price": 114.5,
+        "profit": 52.91,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 6,
+        "exit_date": "2023-01-12",
+        "start_date": "2022-12-13",
+        "sold_qty": 36,
+        "sell_price": 112.0,
+        "avg_price": 108.42,
+        "profit": 128.75,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 7,
+        "exit_date": "2023-01-23",
+        "start_date": "2023-01-12",
+        "sold_qty": 8,
+        "sell_price": 115.79,
+        "avg_price": 112.09,
+        "profit": 29.6,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 8,
+        "exit_date": "2023-02-01",
+        "start_date": "2023-01-23",
+        "sold_qty": 9,
+        "sell_price": 120.7,
+        "avg_price": 116.84,
+        "profit": 34.7,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 9,
+        "exit_date": "2023-02-02",
+        "start_date": "2023-02-01",
+        "sold_qty": 1,
+        "sell_price": 125.0,
+        "avg_price": 121.0,
+        "profit": 4.0,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 10,
+        "exit_date": "2023-03-17",
+        "start_date": "2023-02-02",
+        "sold_qty": 51,
+        "sell_price": 123.88,
+        "avg_price": 119.92,
+        "profit": 201.73,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 11,
+        "exit_date": "2023-03-31",
+        "start_date": "2023-03-17",
+        "sold_qty": 12,
+        "sell_price": 128.45,
+        "avg_price": 124.35,
+        "profit": 49.2,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 12,
+        "exit_date": "2023-05-16",
+        "start_date": "2023-03-31",
+        "sold_qty": 44,
+        "sell_price": 132.39,
+        "avg_price": 128.16,
+        "profit": 186.26,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 13,
+        "exit_date": "2023-05-26",
+        "start_date": "2023-05-16",
+        "sold_qty": 10,
+        "sell_price": 138.94,
+        "avg_price": 134.5,
+        "profit": 44.42,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 14,
+        "exit_date": "2023-06-13",
+        "start_date": "2023-05-26",
+        "sold_qty": 13,
+        "sell_price": 146.46,
+        "avg_price": 141.78,
+        "profit": 60.83,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 15,
+        "exit_date": "2023-07-13",
+        "start_date": "2023-06-13",
+        "sold_qty": 23,
+        "sell_price": 152.31,
+        "avg_price": 147.45,
+        "profit": 111.85,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 16,
+        "exit_date": "2023-11-10",
+        "start_date": "2023-07-13",
+        "sold_qty": 140,
+        "sell_price": 152.71,
+        "avg_price": 147.83,
+        "profit": 683.44,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 17,
+        "exit_date": "2023-12-13",
+        "start_date": "2023-11-10",
+        "sold_qty": 25,
+        "sell_price": 161.79,
+        "avg_price": 156.63,
+        "profit": 129.12,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 18,
+        "exit_date": "2024-01-19",
+        "start_date": "2023-12-13",
+        "sold_qty": 30,
+        "sell_price": 169.49,
+        "avg_price": 164.07,
+        "profit": 162.47,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 19,
+        "exit_date": "2024-03-01",
+        "start_date": "2024-01-19",
+        "sold_qty": 32,
+        "sell_price": 179.55,
+        "avg_price": 173.81,
+        "profit": 183.55,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 20,
+        "exit_date": "2024-05-15",
+        "start_date": "2024-03-01",
+        "sold_qty": 79,
+        "sell_price": 182.4,
+        "avg_price": 176.57,
+        "profit": 460.36,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 21,
+        "exit_date": "2024-06-12",
+        "start_date": "2024-05-15",
+        "sold_qty": 24,
+        "sell_price": 191.21,
+        "avg_price": 185.1,
+        "profit": 146.54,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 22,
+        "exit_date": "2024-07-05",
+        "start_date": "2024-06-12",
+        "sold_qty": 17,
+        "sell_price": 201.68,
+        "avg_price": 195.24,
+        "profit": 109.45,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 23,
+        "exit_date": "2024-08-21",
+        "start_date": "2024-07-05",
+        "sold_qty": 56,
+        "sell_price": 196.59,
+        "avg_price": 190.31,
+        "profit": 351.68,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 24,
+        "exit_date": "2024-09-19",
+        "start_date": "2024-08-21",
+        "sold_qty": 31,
+        "sell_price": 196.51,
+        "avg_price": 190.23,
+        "profit": 194.67,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 25,
+        "exit_date": "2024-11-06",
+        "start_date": "2024-09-19",
+        "sold_qty": 42,
+        "sell_price": 205.38,
+        "avg_price": 198.82,
+        "profit": 275.68,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 26,
+        "exit_date": "2024-12-06",
+        "start_date": "2024-11-06",
+        "sold_qty": 29,
+        "sell_price": 213.7,
+        "avg_price": 206.87,
+        "profit": 198.0,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 27,
+        "exit_date": "2025-02-14",
+        "start_date": "2024-12-06",
+        "sold_qty": 65,
+        "sell_price": 219.11,
+        "avg_price": 212.11,
+        "profit": 454.77,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 28,
+        "exit_date": "2025-05-12",
+        "start_date": "2025-02-14",
+        "sold_qty": 107,
+        "sell_price": 201.47,
+        "avg_price": 195.03,
+        "profit": 688.82,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 29,
+        "exit_date": "2025-06-24",
+        "start_date": "2025-05-12",
+        "sold_qty": 32,
+        "sell_price": 220.56,
+        "avg_price": 213.51,
+        "profit": 225.55,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 30,
+        "exit_date": "2025-08-11",
+        "start_date": "2025-06-24",
+        "sold_qty": 34,
+        "sell_price": 235.89,
+        "avg_price": 228.35,
+        "profit": 256.23,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 31,
+        "exit_date": "2025-09-18",
+        "start_date": "2025-08-11",
+        "sold_qty": 37,
+        "sell_price": 243.03,
+        "avg_price": 235.26,
+        "profit": 287.4,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 32,
+        "exit_date": "2025-10-27",
+        "start_date": "2025-09-18",
+        "sold_qty": 33,
+        "sell_price": 254.53,
+        "avg_price": 246.4,
+        "profit": 268.24,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 33,
+        "exit_date": "2026-01-28",
+        "start_date": "2025-10-27",
+        "sold_qty": 87,
+        "sell_price": 260.73,
+        "avg_price": 252.4,
+        "profit": 724.61,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 34,
+        "exit_date": "2026-04-14",
+        "start_date": "2026-01-28",
+        "sold_qty": 97,
+        "sell_price": 254.63,
+        "avg_price": 246.5,
+        "profit": 788.73,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 35,
+        "exit_date": "2026-05-01",
+        "start_date": "2026-04-14",
+        "sold_qty": 13,
+        "sell_price": 276.43,
+        "avg_price": 267.6,
+        "profit": 114.81,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 36,
+        "exit_date": "2026-05-08",
+        "start_date": "2026-05-01",
+        "sold_qty": 6,
+        "sell_price": 289.42,
+        "avg_price": 280.18,
+        "profit": 55.46,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 37,
+        "exit_date": "2026-05-28",
+        "start_date": "2026-05-08",
+        "sold_qty": 17,
+        "sell_price": 302.33,
+        "avg_price": 292.67,
+        "profit": 164.22,
+        "profit_rate": 3.3
+      },
+      {
+        "cycle": 38,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-05-28",
+        "sold_qty": 120,
+        "sell_price": 302.34,
+        "avg_price": 292.68,
+        "profit": 1158.9,
+        "profit_rate": 3.3
+      }
+    ]
+  },
+  "QLD": {
+    "symbol": "QLD",
+    "start_date": "2022-01-03",
+    "end_date": "2026-10-02",
+    "trading_days": 1192,
+    "total_exits": 48,
+    "total_realized_profit": 4194.32,
+    "max_seed": 6509.31,
+    "max_qty": 221,
+    "current_qty": 15,
+    "current_avg_price": 96.09,
+    "current_unrealized_profit": 30.59,
+    "current_unrealized_pct": 2.12,
+    "total_profit": 4224.91,
+    "roi_max_seed": 64.91,
+    "yearly": {
+      "2022": {
+        "exits": 3,
+        "realized_profit": 417.89,
+        "max_seed": 4273.99,
+        "max_qty": 190
+      },
+      "2023": {
+        "exits": 14,
+        "realized_profit": 699.1,
+        "max_seed": 4603.11,
+        "max_qty": 221
+      },
+      "2024": {
+        "exits": 13,
+        "realized_profit": 836.56,
+        "max_seed": 3464.5,
+        "max_qty": 83
+      },
+      "2025": {
+        "exits": 9,
+        "realized_profit": 866.0,
+        "max_seed": 5040.76,
+        "max_qty": 110
+      },
+      "2026": {
+        "exits": 9,
+        "realized_profit": 1374.79,
+        "max_seed": 6509.31,
+        "max_qty": 98
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 1,
+        "exit_date": "2022-03-29",
+        "start_date": "2022-01-03",
+        "sold_qty": 112,
+        "sell_price": 36.16,
+        "avg_price": 34.44,
+        "profit": 192.98,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 2,
+        "exit_date": "2022-08-03",
+        "start_date": "2022-03-29",
+        "sold_qty": 169,
+        "sell_price": 26.55,
+        "avg_price": 25.29,
+        "profit": 212.96,
+        "profit_rate": 4.98
+      },
+      {
+        "cycle": 3,
+        "exit_date": "2022-08-11",
+        "start_date": "2022-08-03",
+        "sold_qty": 9,
+        "sell_price": 27.93,
+        "avg_price": 26.6,
+        "profit": 11.95,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 4,
+        "exit_date": "2023-01-27",
+        "start_date": "2022-08-11",
+        "sold_qty": 221,
+        "sell_price": 21.13,
+        "avg_price": 20.13,
+        "profit": 221.44,
+        "profit_rate": 4.98
+      },
+      {
+        "cycle": 5,
+        "exit_date": "2023-02-01",
+        "start_date": "2023-01-27",
+        "sold_qty": 4,
+        "sell_price": 21.82,
+        "avg_price": 20.78,
+        "profit": 4.17,
+        "profit_rate": 5.02
+      },
+      {
+        "cycle": 6,
+        "exit_date": "2023-02-02",
+        "start_date": "2023-02-01",
+        "sold_qty": 1,
+        "sell_price": 23.04,
+        "avg_price": 21.94,
+        "profit": 1.1,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 7,
+        "exit_date": "2023-03-16",
+        "start_date": "2023-02-02",
+        "sold_qty": 54,
+        "sell_price": 22.45,
+        "avg_price": 21.38,
+        "profit": 57.96,
+        "profit_rate": 5.02
+      },
+      {
+        "cycle": 8,
+        "exit_date": "2023-03-22",
+        "start_date": "2023-03-16",
+        "sold_qty": 5,
+        "sell_price": 23.58,
+        "avg_price": 22.46,
+        "profit": 5.61,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 9,
+        "exit_date": "2023-03-23",
+        "start_date": "2023-03-22",
+        "sold_qty": 2,
+        "sell_price": 23.5,
+        "avg_price": 22.38,
+        "profit": 2.24,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 10,
+        "exit_date": "2023-03-31",
+        "start_date": "2023-03-23",
+        "sold_qty": 8,
+        "sell_price": 24.1,
+        "avg_price": 22.96,
+        "profit": 9.15,
+        "profit_rate": 4.98
+      },
+      {
+        "cycle": 11,
+        "exit_date": "2023-05-11",
+        "start_date": "2023-03-31",
+        "sold_qty": 42,
+        "sell_price": 25.15,
+        "avg_price": 23.95,
+        "profit": 50.39,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 12,
+        "exit_date": "2023-05-18",
+        "start_date": "2023-05-11",
+        "sold_qty": 6,
+        "sell_price": 26.48,
+        "avg_price": 25.21,
+        "profit": 7.59,
+        "profit_rate": 5.02
+      },
+      {
+        "cycle": 13,
+        "exit_date": "2023-05-26",
+        "start_date": "2023-05-18",
+        "sold_qty": 9,
+        "sell_price": 27.79,
+        "avg_price": 26.47,
+        "profit": 11.92,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 14,
+        "exit_date": "2023-06-12",
+        "start_date": "2023-05-26",
+        "sold_qty": 12,
+        "sell_price": 30.4,
+        "avg_price": 28.95,
+        "profit": 17.4,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 15,
+        "exit_date": "2023-07-13",
+        "start_date": "2023-06-12",
+        "sold_qty": 25,
+        "sell_price": 32.76,
+        "avg_price": 31.2,
+        "profit": 38.96,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 16,
+        "exit_date": "2023-11-10",
+        "start_date": "2023-07-13",
+        "sold_qty": 149,
+        "sell_price": 32.44,
+        "avg_price": 30.89,
+        "profit": 230.45,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 17,
+        "exit_date": "2023-12-12",
+        "start_date": "2023-11-10",
+        "sold_qty": 24,
+        "sell_price": 35.55,
+        "avg_price": 33.85,
+        "profit": 40.72,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 18,
+        "exit_date": "2024-01-19",
+        "start_date": "2023-12-12",
+        "sold_qty": 30,
+        "sell_price": 38.76,
+        "avg_price": 36.91,
+        "profit": 55.44,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 19,
+        "exit_date": "2024-02-09",
+        "start_date": "2024-01-19",
+        "sold_qty": 18,
+        "sell_price": 42.39,
+        "avg_price": 40.37,
+        "profit": 36.39,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 20,
+        "exit_date": "2024-03-01",
+        "start_date": "2024-02-09",
+        "sold_qty": 19,
+        "sell_price": 43.76,
+        "avg_price": 41.67,
+        "profit": 39.68,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 21,
+        "exit_date": "2024-05-15",
+        "start_date": "2024-03-01",
+        "sold_qty": 83,
+        "sell_price": 43.83,
+        "avg_price": 41.74,
+        "profit": 173.39,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 22,
+        "exit_date": "2024-06-11",
+        "start_date": "2024-05-15",
+        "sold_qty": 23,
+        "sell_price": 47.39,
+        "avg_price": 45.13,
+        "profit": 51.97,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 23,
+        "exit_date": "2024-06-17",
+        "start_date": "2024-06-11",
+        "sold_qty": 4,
+        "sell_price": 51.23,
+        "avg_price": 48.79,
+        "profit": 9.74,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 24,
+        "exit_date": "2024-07-05",
+        "start_date": "2024-06-17",
+        "sold_qty": 17,
+        "sell_price": 52.65,
+        "avg_price": 50.14,
+        "profit": 42.63,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 25,
+        "exit_date": "2024-08-20",
+        "start_date": "2024-07-05",
+        "sold_qty": 56,
+        "sell_price": 49.5,
+        "avg_price": 47.14,
+        "profit": 132.01,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 26,
+        "exit_date": "2024-09-19",
+        "start_date": "2024-08-20",
+        "sold_qty": 32,
+        "sell_price": 48.73,
+        "avg_price": 46.41,
+        "profit": 74.23,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 27,
+        "exit_date": "2024-10-14",
+        "start_date": "2024-09-19",
+        "sold_qty": 22,
+        "sell_price": 52.05,
+        "avg_price": 49.57,
+        "profit": 54.51,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 28,
+        "exit_date": "2024-11-06",
+        "start_date": "2024-10-14",
+        "sold_qty": 25,
+        "sell_price": 53.11,
+        "avg_price": 50.58,
+        "profit": 63.25,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 29,
+        "exit_date": "2024-12-04",
+        "start_date": "2024-11-06",
+        "sold_qty": 27,
+        "sell_price": 56.12,
+        "avg_price": 53.45,
+        "profit": 72.06,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 30,
+        "exit_date": "2024-12-16",
+        "start_date": "2024-12-04",
+        "sold_qty": 11,
+        "sell_price": 59.77,
+        "avg_price": 56.93,
+        "profit": 31.26,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 31,
+        "exit_date": "2025-01-22",
+        "start_date": "2024-12-16",
+        "sold_qty": 39,
+        "sell_price": 57.95,
+        "avg_price": 55.19,
+        "profit": 107.54,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 32,
+        "exit_date": "2025-02-14",
+        "start_date": "2025-01-22",
+        "sold_qty": 25,
+        "sell_price": 59.14,
+        "avg_price": 56.32,
+        "profit": 70.47,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 33,
+        "exit_date": "2025-05-12",
+        "start_date": "2025-02-14",
+        "sold_qty": 110,
+        "sell_price": 48.12,
+        "avg_price": 45.83,
+        "profit": 252.44,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 34,
+        "exit_date": "2025-06-05",
+        "start_date": "2025-05-12",
+        "sold_qty": 20,
+        "sell_price": 54.65,
+        "avg_price": 52.05,
+        "profit": 51.97,
+        "profit_rate": 4.99
+      },
+      {
+        "cycle": 35,
+        "exit_date": "2025-06-26",
+        "start_date": "2025-06-05",
+        "sold_qty": 18,
+        "sell_price": 57.18,
+        "avg_price": 54.45,
+        "profit": 49.05,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 36,
+        "exit_date": "2025-07-29",
+        "start_date": "2025-06-26",
+        "sold_qty": 23,
+        "sell_price": 62.63,
+        "avg_price": 59.65,
+        "profit": 68.6,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 37,
+        "exit_date": "2025-08-12",
+        "start_date": "2025-07-29",
+        "sold_qty": 13,
+        "sell_price": 64.21,
+        "avg_price": 61.15,
+        "profit": 39.72,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 38,
+        "exit_date": "2025-09-15",
+        "start_date": "2025-08-12",
+        "sold_qty": 35,
+        "sell_price": 65.96,
+        "avg_price": 62.82,
+        "profit": 109.97,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 39,
+        "exit_date": "2025-10-24",
+        "start_date": "2025-09-15",
+        "sold_qty": 34,
+        "sell_price": 71.71,
+        "avg_price": 68.29,
+        "profit": 116.24,
+        "profit_rate": 5.01
+      },
+      {
+        "cycle": 40,
+        "exit_date": "2026-01-28",
+        "start_date": "2025-10-24",
+        "sold_qty": 89,
+        "sell_price": 74.47,
+        "avg_price": 70.92,
+        "profit": 315.89,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 41,
+        "exit_date": "2026-04-14",
+        "start_date": "2026-01-28",
+        "sold_qty": 98,
+        "sell_price": 69.74,
+        "avg_price": 66.42,
+        "profit": 325.21,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 42,
+        "exit_date": "2026-04-24",
+        "start_date": "2026-04-14",
+        "sold_qty": 8,
+        "sell_price": 79.35,
+        "avg_price": 75.57,
+        "profit": 30.21,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 43,
+        "exit_date": "2026-05-05",
+        "start_date": "2026-04-24",
+        "sold_qty": 8,
+        "sell_price": 84.37,
+        "avg_price": 80.35,
+        "profit": 32.13,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 44,
+        "exit_date": "2026-05-08",
+        "start_date": "2026-05-05",
+        "sold_qty": 3,
+        "sell_price": 90.88,
+        "avg_price": 86.55,
+        "profit": 12.99,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 45,
+        "exit_date": "2026-05-26",
+        "start_date": "2026-05-08",
+        "sold_qty": 15,
+        "sell_price": 95.81,
+        "avg_price": 91.25,
+        "profit": 68.38,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 46,
+        "exit_date": "2026-06-15",
+        "start_date": "2026-05-26",
+        "sold_qty": 21,
+        "sell_price": 98.52,
+        "avg_price": 93.82,
+        "profit": 98.61,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 47,
+        "exit_date": "2026-08-05",
+        "start_date": "2026-06-15",
+        "sold_qty": 60,
+        "sell_price": 93.47,
+        "avg_price": 89.02,
+        "profit": 267.24,
+        "profit_rate": 5.0
+      },
+      {
+        "cycle": 48,
+        "exit_date": "2026-09-21",
+        "start_date": "2026-08-05",
+        "sold_qty": 50,
+        "sell_price": 94.19,
+        "avg_price": 89.71,
+        "profit": 224.13,
+        "profit_rate": 5.0
+      }
+    ]
+  },
   "TQQQ": {
     "symbol": "TQQQ",
     "start_date": "2022-01-03",
-    "end_date": "2026-09-29",
-    "trading_days": 1189,
+    "end_date": "2026-10-02",
+    "trading_days": 1192,
     "total_exits": 30,
     "total_realized_profit": 5953.43,
     "max_seed": 9830.9,
     "max_qty": 229,
-    "current_qty": 10,
-    "current_avg_price": 78.38,
-    "current_unrealized_profit": -8.83,
-    "current_unrealized_pct": -1.13,
-    "total_profit": 5944.6,
-    "roi_max_seed": 60.47,
+    "current_qty": 14,
+    "current_avg_price": 78.54,
+    "current_unrealized_profit": 34.59,
+    "current_unrealized_pct": 3.15,
+    "total_profit": 5988.02,
+    "roi_max_seed": 60.91,
     "yearly": {
       "2022": {
         "exits": 2,
@@ -352,18 +1732,18 @@
   "SOXL": {
     "symbol": "SOXL",
     "start_date": "2022-01-03",
-    "end_date": "2026-09-29",
-    "trading_days": 1189,
-    "total_exits": 49,
-    "total_realized_profit": 7578.76,
+    "end_date": "2026-10-02",
+    "trading_days": 1192,
+    "total_exits": 50,
+    "total_realized_profit": 7740.94,
     "max_seed": 15476.52,
     "max_qty": 666,
-    "current_qty": 9,
-    "current_avg_price": 146.99,
-    "current_unrealized_profit": 25.1,
-    "current_unrealized_pct": 1.9,
-    "total_profit": 7603.86,
-    "roi_max_seed": 49.13,
+    "current_qty": 1,
+    "current_avg_price": 163.71,
+    "current_unrealized_profit": 0.0,
+    "current_unrealized_pct": 0.0,
+    "total_profit": 7740.94,
+    "roi_max_seed": 50.02,
     "yearly": {
       "2022": {
         "exits": 0,
@@ -390,8 +1770,8 @@
         "max_qty": 565
       },
       "2026": {
-        "exits": 25,
-        "realized_profit": 3116.67,
+        "exits": 26,
+        "realized_profit": 3278.85,
         "max_seed": 13882.65,
         "max_qty": 104
       }
@@ -885,6 +2265,16 @@
         "sell_price": 146.84,
         "avg_price": 133.49,
         "profit": 1388.71,
+        "profit_rate": 10.0
+      },
+      {
+        "cycle": 50,
+        "exit_date": "2026-10-02",
+        "start_date": "2026-09-22",
+        "sold_qty": 11,
+        "sell_price": 162.17,
+        "avg_price": 147.43,
+        "profit": 162.18,
         "profit_rate": 10.0
       }
     ]

@@ -10,11 +10,23 @@ import pandas as pd
 import yfinance as yf
 
 
-def run_backtest(symbol: str, start_date: str = "2022-01-01", take_profit: float = 0.10):
+DEFAULT_TP = {
+    "QQQ": 0.033,
+    "QQQM": 0.033,
+    "QLD": 0.05,
+    "TQQQ": 0.10,
+    "SOXL": 0.10,
+}
+
+def run_backtest(symbol: str, start_date: str = "2022-01-01", take_profit: float = None):
+    if take_profit is None:
+        take_profit = DEFAULT_TP.get(symbol.upper(), 0.10)
+
     print(f"\n========================================================")
     print(f"🚀 [{symbol}] 백테스팅 시작: {start_date} ~ 현재")
     print(f"• 익절 목표: +{take_profit * 100:.1f}%")
     print(f"========================================================")
+
 
     # 넉넉하게 10일 전부터 다운로드하여 직전 거래일 종가 확보
     fetch_start = pd.to_datetime(start_date) - pd.Timedelta(days=15)
@@ -175,7 +187,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Toss Bot Strategy Backtester")
     parser.add_argument("--symbol", type=str, default="TQQQ", help="종목 코드 (기본값: TQQQ)")
     parser.add_argument("--start", type=str, default="2022-01-01", help="시작일 (YYYY-MM-DD, 기본값: 2022-01-01)")
-    parser.add_argument("--tp", type=float, default=0.10, help="익절 목표 비율 (기본값: 0.10 -> 10%)")
+    parser.add_argument("--tp", type=float, default=None, help="익절 목표 비율 (기본값: 종목별 자동 - QQQ/QQQM: 0.033, QLD: 0.05, TQQQ/SOXL: 0.10)")
     args = parser.parse_args()
 
     run_backtest(symbol=args.symbol, start_date=args.start, take_profit=args.tp)
