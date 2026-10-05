@@ -16,10 +16,11 @@ from backtest import run_backtest
 SYMBOLS = [
     ("QQQ", 0.033),
     ("QQQM", 0.033),
-    ("QLD", 0.05),
+    ("QLD", 0.066),
     ("TQQQ", 0.10),
     ("SOXL", 0.10),
 ]
+
 
 def main():
     print("=" * 60)

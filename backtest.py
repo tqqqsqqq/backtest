@@ -13,10 +13,11 @@ import yfinance as yf
 DEFAULT_TP = {
     "QQQ": 0.033,
     "QQQM": 0.033,
-    "QLD": 0.05,
+    "QLD": 0.066,
     "TQQQ": 0.10,
     "SOXL": 0.10,
 }
+
 
 def run_backtest(symbol: str, start_date: str = "2022-01-01", take_profit: float = None):
     if take_profit is None:
